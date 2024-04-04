@@ -26,7 +26,7 @@ const OneUserPost = () => {
         fetch('http://localhost:5000/posts')
             .then(response => response.json())
             .then(postsData => {
-                const postsOfUser = postsData.filter(post => post.userId == userId);
+                const postsOfUser = postsData.filter(post => post.userId === userId);
                 setUserPosts(postsOfUser);
             })
             .catch(error => console.log(error));

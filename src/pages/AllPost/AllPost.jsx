@@ -26,7 +26,7 @@ const AllPost = () => {
             .then(data => setComments(data))
             .then(console.log(comments))
             .catch(error => console.log(error))
-    }, [])
+    }, [posts, users, comments])
 
     return (
         <div className='all-post'>
