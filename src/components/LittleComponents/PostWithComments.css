@@ -1,0 +1,18 @@
+.post-with-comments {
+    margin-bottom: 20px;
+  }
+  
+  .post-with-comments button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .post-with-comments button:hover {
+    background-color: #0056b3;
+  }
+  

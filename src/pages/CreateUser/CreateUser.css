@@ -1,0 +1,40 @@
+.create-user-form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .create-user-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .create-user-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-user-form label {
+    margin-bottom: 10px;
+  }
+  
+  .create-user-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .create-user-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create-user-form button:hover {
+    background-color: #0056b3;
+  }
+  

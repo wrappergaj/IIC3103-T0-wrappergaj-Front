@@ -1,0 +1,30 @@
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .post h2 {
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    margin-bottom: 10px;
+  }
+  
+  .post a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .post a:hover {
+    text-decoration: underline;
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

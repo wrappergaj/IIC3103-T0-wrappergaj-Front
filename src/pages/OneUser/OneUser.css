@@ -1,0 +1,46 @@
+.one-user {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .one-user h2 {
+    margin-bottom: 20px;
+  }
+  
+  .one-user .user-container {
+    margin-bottom: 40px;
+  }
+  
+  .one-user .post-container {
+    margin-bottom: 40px;
+  }
+  
+  .one-user .user-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .one-user .user-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .one-user .post-container .post {
+    margin-bottom: 20px;
+  }
+  
+  .one-user .post-container .post h2 {
+    margin-bottom: 10px;
+  }
+  
+  .one-user .post-container .post p {
+    margin-bottom: 15px;
+  }
+  
+  .one-user .post-container .post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

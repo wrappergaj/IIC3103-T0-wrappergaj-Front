@@ -1,0 +1,14 @@
+.username {
+    margin-bottom: 20px;
+  }
+  
+  .username h2 {
+    margin-bottom: 10px;
+  }
+  
+  .username img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
