@@ -74,7 +74,7 @@ function CreatePostForm() {
                 <div>
                     <label htmlFor="userId">User ID :</label>
                     <input
-                        type="integer"
+                        type="text"
                         id="userid"
                         value={userId}
                         onChange={(e) => setUserId(e.target.value)}
