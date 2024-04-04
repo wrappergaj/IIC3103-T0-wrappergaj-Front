@@ -18,7 +18,7 @@ function PostWithComments({ users, post, comments }) {
             "postId": post.id
         };
 
-        fetch('http://localhost:5000/comments', {
+        fetch('https://iic3103-t1-wrappergaj.onrender.com/comments', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {

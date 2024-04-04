@@ -1,6 +1,6 @@
 export const populateData = async () => {
     try {
-        const response = await fetch('http://localhost:5000/populate', {
+        const response = await fetch('https://iic3103-t1-wrappergaj.onrender.com/populate', {
             method: 'POST',
         });
         return response.json();

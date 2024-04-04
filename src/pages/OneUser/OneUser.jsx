@@ -11,19 +11,19 @@ const OneUserPost = () => {
     const [comments, setComments] = useState([]);
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/users/${userId}`)
+        fetch(`https://iic3103-t1-wrappergaj.onrender.com/users/${userId}`)
             .then(response => response.json())
             .then(userData => {
                 setUser(userData);
             })
             .catch(error => console.log(error));
 
-        fetch('http://localhost:5000/users')
+        fetch('https://iic3103-t1-wrappergaj.onrender.com/users')
             .then(response => response.json())
             .then(usersData => setUsers(usersData))
             .catch(error => console.log(error));
 
-        fetch('http://localhost:5000/posts')
+        fetch('https://iic3103-t1-wrappergaj.onrender.com/posts')
             .then(response => response.json())
             .then(postsData => {
                 const postsOfUser = postsData.filter(post => post.userId === userId);
@@ -31,7 +31,7 @@ const OneUserPost = () => {
             })
             .catch(error => console.log(error));
 
-        fetch('http://localhost:5000/comments')
+        fetch('https://iic3103-t1-wrappergaj.onrender.com/comments')
             .then(response => response.json())
             .then(commentsData => setComments(commentsData))
             .catch(error => console.log(error));

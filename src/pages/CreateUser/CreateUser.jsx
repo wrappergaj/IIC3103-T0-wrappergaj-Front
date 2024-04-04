@@ -10,7 +10,7 @@ function CreateUserForm() {
 
         try {
             const body_response = JSON.stringify({ username, avatar });
-            const response = await fetch('http://localhost:5000/users', {
+            const response = await fetch('https://iic3103-t1-wrappergaj.onrender.com/users', {
                 method: 'POST',
                 body: body_response,
                 headers: {

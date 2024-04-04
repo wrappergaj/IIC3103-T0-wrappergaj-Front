@@ -9,19 +9,19 @@ const AllPost = () => {
 
     // GET
     useEffect(() => {
-        fetch('http://localhost:5000/posts')
+        fetch('https://iic3103-t1-wrappergaj.onrender.com/posts')
             .then(response =>  response.json())
             .then(data => setPosts(data))
             .then(console.log(posts))
             .catch(error => console.log(error))
 
-        fetch('http://localhost:5000/users')
+        fetch('https://iic3103-t1-wrappergaj.onrender.com/users')
             .then(response =>  response.json())
             .then(data => setUsers(data))
             .then(console.log(users))
             .catch(error => console.log(error))
 
-        fetch('http://localhost:5000/comments')
+        fetch('https://iic3103-t1-wrappergaj.onrender.com/comments')
             .then(response =>  response.json())
             .then(data => setComments(data))
             .then(console.log(comments))

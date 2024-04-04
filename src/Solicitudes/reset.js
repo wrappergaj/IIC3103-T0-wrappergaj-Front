@@ -1,7 +1,7 @@
 // api.js
 export const resetData = async () => {
     try {
-        const response = await fetch('http://localhost:5000/reset', {
+        const response = await fetch('https://iic3103-t1-wrappergaj.onrender.com/reset', {
             method: 'POST',
         });
         return response.json();
