@@ -14,7 +14,8 @@ function CreateUserForm() {
                 method: 'POST',
                 body: body_response,
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
                 }
             });
 
